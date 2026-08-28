@@ -30,9 +30,7 @@ lda_model6 <- LDA(
   method = "Gibbs",
   control = list(
     iter   = 10000,
-    burnin = 1000,
-    alpha  = 0.1,
-    delta  = 0.001
+    burnin = 1000
   )
 )
 
