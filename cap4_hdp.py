@@ -46,7 +46,7 @@ mdl = tp.HDPModel(
     gamma  = 1.0,
     eta    = 0.01,
     seed   = 42,
-    min_df = 1,    # abbassare a 1 per corpus piccoli
+    min_df = 3,    # abbassare a 1 per corpus piccoli
     rm_top = 0
 )
 
